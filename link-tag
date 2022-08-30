@@ -1,0 +1,14 @@
+<!doctype html>
+	<html>
+		<head>
+		<meta charset="UTF-8">
+		</head>
+			<body>
+			<h1> Doguinhos </h1>
+				<p> Quer ver algo fofo? </p>
+				<ul>
+					<li> <a href = "https://img.buzzfeed.com/buzzfeed-static/static/2018-06/1/15/asset/buzzfeed-prod-web-02/sub-buzz-2139-1527881911-12.jpg?downsize=600:*&output-format=auto&output-quality=auto"> clique aqui </a> </li>
+					<li> <a href = "https://i.redd.it/m2swmqow56j61.jpg"> Veja eu estudando exatas! </a> </li>
+				</ul>
+			</body>
+	</html>
