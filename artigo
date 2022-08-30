@@ -1,0 +1,53 @@
+<!doctype html>
+	<html>
+    	<head>
+        <meta charset="UTF-8">
+        </head>
+        	<body>
+            	<h1>Adote um doguinho!</h1>
+            	<p>Conheça algumas raças de cachorrinhos que farão companhia e alegraram o dia de qualquer um que os possuir. Cuidado para não morrer de fofura, pois os bichinhos abaixo estão além do nível de fofurice.</p>
+                
+                <article>
+                	<h2>Welsh corgi pembroke</h2>
+                    <p>Com origem semelhante, o Welsh Corgi Cardigan e o Welsh Corgi Pembroke são muito descontraídos e companheiros de seus tutores. Apesar do pequeno porte, eles são muito ativos e amam fazer esportes, além de sempre estarem em estado de alerta para proteger sua família humana.
+                    <br><br>A aparência tem conquistado cada vez mais amantes de cachorro. A feição dócil e alegre do cachorro Corgi encanta a qualquer um e suas orelhinhas sempre eretas reforçam sua posição de pastor e protetor. 
+                    <br><br>Apesar de serem afetuosos assim, essas são duas das raças que melhor ficam sozinhas, mas não se esqueça de que precisam gastar em passeios toda a energia que acumulam! Vamos conhecer mais sobre esses cachorros incríveis?</p>
+               </article>
+               
+               <nav>
+               		<a href ="https://i.pinimg.com/564x/2e/2c/d8/2e2cd89c6ffbaaa83f22125ffbfd7e27.jpg"> Saiba mais sobre o Corgi!</a>
+               </nav>
+               
+               <article>
+               		<h2>Dachshund</h2>
+                    <p>Inicialmente um cão de caça — que dá origem ao seu nome — o cachorro Dachshund atualmente é um excelente parceiro para companhia. Corajosos, os salsichas, como também são conhecidos, são curiosos e podem passar horas entretidos se começarem a farejar algo interessante, fazendo jus a sua origem.<br><br> 
+                    Além de diversos apelidos, para tutores que estão interessados em adotar um cãozinho desse na família, é importante saber quais das três opções de tamanho (Kaninchen, Miniatura e Padrão) ou pelagem (pelo curto, pelo duro e pelo longo) há maior compatibilidade com a rotina familiar.<br><br>
+                    O Dachshund é uma raça com muitas variedades. Além das três opções de tamanhos e de pelagem, esses pets possuem uma vasta lista de nomes e apelidos. No Brasil, ele ficou conhecido como Salsicha ou Cofap. Já lá fora, ele também é chamado de Dackel ou Teckel.<br><br>
+                    O apelido Basset Cofap possui uma história curiosa. No início dos anos 90, quando a raça começava a ficar conhecida aqui, um Salsichinha estrelava comerciais publicitários da marca de amortecedor Cofap, o que resultou no início da popularidade dele por aqui.</p>
+               </article>
+               
+               <nav>
+               		<a href ="https://i.pinimg.com/564x/58/92/72/58927243c2dfc6bd2c1495500ea8b1ae.jpg"> Saiba mais sobre os Salsichas!</a>
+               </nav>
+                
+                <article>
+                	<h2>Vira-Lata Caramelo</h2>
+                    <p>Não há nenhum símbolo mais simpático, franco e principalmente onipresente do que o vira-lata caramelo. Esteja onde você estiver, não importa a sua classe social, seu endereço ou sua região, é certo que no seu bairro, provavelmente na sua rua, há um simpático cãozinho da cor caramelo vagando atrás de água, comida ou diversão.<br><br> 				Todo mundo sabe que os vira-latas são cachorros mais inteligentes, afetuosos e até mesmo saudáveis que os cães de raça, mas nenhum parece carregar mais o espírito que o caramelo. A internet já sabe disso há tempos, e verdadeiras campanhas vêm sendo levantadas virtualmente – pela instauração de um dia para o vira-lata caramelo, pela confirmação do cachorro como um símbolo nacional, e até mesmo para que, como são as vacas na Índia, o vira-lata caramelo se torne um animal sagrado em solo nacional.<br><br>
+                    Brincadeiras à parte, trata-se de fato de um cachorro amável e especial – portanto, vale lembrar de oferecer água ou ração para o caramelo da sua rua, e lembrar desses vira-latas na hora de adotar, afinal, trata-se de um animal praticamente sagrado.<br><br>
+                    <u>Carinho, parceria, lambidas e muito, muito amor.</u><br><br>
+                    
+					Nas horas boas ou nas horas ruins. Na caminhada em um dia de sol ou na cama curtindo o som da chuva do lado de fora. Uma coisa é certa: nossos dogs sempre estarão ao nosso lado.</p>
+                    
+                   <nav>
+                   		<a href ="https://i.redd.it/zij9mfol54j41.jpg"> Saiba mais sobre o Vira-Lata Caramelo!</a>
+                   </nav>
+                   <br>
+                   
+                   <hr>
+                   <footer>
+                   		<p> Autor: Grazy<br>
+                        <a href ="mailto:dixxdagrazi@gmail.com"> dixxdagrazi@gmail.com </a></p>
+             			<h7>© 2022 copyright Todos os direitos reservados.</h7>
+                   </footer>
+            </body>
+    </html>
