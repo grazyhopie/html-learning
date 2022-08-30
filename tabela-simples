@@ -1,0 +1,36 @@
+<!doctype html>
+        <html>
+            <head>
+                <title> Hortifruti <3 </title>
+                <meta charset="UTF-8">   
+            </head>
+
+                <body>
+                    <table border="1"> 
+                        <caption> Promoções </caption>
+                        <tr>
+                            <th> Dia da Semana </th>
+                            <th> Item </th>
+                            <th> Preço </th>
+                        </tr>
+
+                        <tr>
+                            <td> 2ª feira </td>
+                            <td> Mandioca </td>
+                            <td> 1,50/kg </td>
+                        </tr>
+
+                        <tr>
+                            <td> 3ª feira </td>
+                            <td> Banana </td>
+                            <td> 3,50/kg </td>
+                        </tr>
+
+                        <tr>
+                            <td> 4ª feira </td>
+                            <td> Laranja </td>
+                            <td> 2,50/kg </td>
+                        </tr>
+                    </table>
+                </body>
+        </html>
