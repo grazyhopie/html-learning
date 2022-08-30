@@ -1,0 +1,15 @@
+<!doctype html>
+	<html>
+		<head>
+		<meta charset="UTF-8">
+		</head>
+			<body>
+			<h1> </h1>
+				<p>The nav element defines a set of navigation links:</p>
+					<nav>
+						<a href = "https://preview.redd.it/bnyvt8az3fj91.jpg?width=640&crop=smart&auto=webp&s=fa91b9e30bbeb65179569620fc434e8e3692ff35"> Clique aqui </a>
+						<br>
+						<a href = "https://preview.redd.it/zbiga2dvvs981.jpg?width=640&crop=smart&auto=webp&s=3a9c9f3a4dd4e801d8e08e57d7d6293463294668"> Ou clique aqui </a>
+					</nav>
+			</body>
+	</html>
