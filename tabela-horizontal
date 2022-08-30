@@ -1,0 +1,23 @@
+<!doctype html>
+        <html>
+            <head>
+                <title> Hortifruti <3 </title>
+                <meta charset="UTF-8">   
+            </head>
+
+                <body>
+                   <table border="1">
+                       <caption>Tabela Horizontal</caption>
+
+                       <tr>
+                        <th>Nome:</th>
+                        <td>Grazi</td>
+                       </tr>
+
+                       <tr>
+                        <th>Idade:</th>
+                        <td>19</td>
+                       </tr>
+                   </table>
+                </body>
+        </html>
