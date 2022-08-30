@@ -1,0 +1,30 @@
+<!doctype html>
+        <html>
+            <head>
+                <title> Hortifruti <3 </title>
+                <meta charset="UTF-8">   
+            </head>
+
+                <body>
+
+                    <table border="1">
+                    <caption>Tabela vazia</caption>
+
+                    <tr>
+                        <th>&nbsp;</th> <!-- celula em branco-->
+                        <th>Valor</th>
+                    </tr>
+
+                    <tr>
+                        <td>Item 1</td>
+                        <td>10,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Item 2</td>
+                        <td>20,00</td>
+                    </tr>
+                    </table>
+
+                </body>
+        </html>
