@@ -1,0 +1,18 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>blockquote</title>
+			<meta charset="utf-8">
+		</head>
+			<body>
+				<h1>The blockquote element</h1>
+					<p>Here is a quote from Haruki Murakami:</p>
+						<blockquote cite="https://www.goodreads.com/quotes/990804-wherever-there-s-hope-there-s-a-trial-you-re-exactly-right-absolutely"> 
+						“Wherever there's hope there's a trial.
+						You're exactly right. Absolutely.
+						Hope, however, is limited, and generally abstract, while
+						there are countless trials, and they tend to be concrete.
+						That is also something I had to learn on my own.”
+						</blockquote>
+			</body>
+		</html>
