@@ -1,0 +1,23 @@
+<!doctype html>
+	<html>
+		<head>
+		<title>Adicionando imagem!</title>
+		<meta charset="utf-8">
+		</head>
+			<body>
+				<h1>The figure and figcaption element</h1>
+					<figure>
+						<!--Para adicionar uma imagem que está no comptador
+						é necessário: baixar>salvar imagem como>verificar 
+						extensão da imagem(png,jpg,jpeg)
+						colocar imagem no mesmo local que o codigo salvo 
+						ex: colocar codigo e imagem na area de trabalho 
+						criar uma pasta nova nesse local(area de trab.) 
+						e colocar a imagem salva nela
+						src="imagens(nome da pasta)/fluttershy.jpg(nomeDaImagem.extensão)-->
+						
+						<img src="imagens/fluttershy.jpg" width="100"/>
+						<figcaption>My little poney</figcaption>
+					</figure>	
+			</body>
+	</html>
