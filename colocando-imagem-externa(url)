@@ -1,0 +1,16 @@
+<!doctype html>
+	<html>
+		<head>
+		<title>Adicionando imagem!</title>
+		<meta charset="utf-8">
+		</head>
+			<body>
+				<h1>The figure and figcaption element</h1>
+					<figure>
+						<!--img src="link(url)externo" width(largura)="100" 
+						alt(aparece caso a imagem não rode)="fluttershy:("/> -->
+						<img src="https://i.pinimg.com/originals/47/ed/62/47ed62cfdb15a1cca1e0502267b29186.png" width="100" alt="fluttershy:("/>
+						<figcaption>My little poney</figcaption>
+					</figure>	
+			</body>
+	</html>
