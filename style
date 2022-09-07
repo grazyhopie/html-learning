@@ -1,0 +1,17 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Utilizando style</title>
+			<meta charset="utf-8">
+				<style>
+					h1{
+						color:red;
+						}
+					p{color:blue;}
+				</style>
+		</head>
+			<body>
+				<h1>Heading</h1>
+					<p>Paragraph</p>
+			</body>
+	</html>
