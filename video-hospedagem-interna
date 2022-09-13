@@ -9,7 +9,7 @@
 				<p>Este video esta hospedado no meu próprio 
 				servidor(arquivo interno no pc).</p>
 				
-					<video src="midia/ressaca.mp4" width="500" controls></video>
+					<video source src="midia/ressaca.mp4" width="500" controls></video>
 			
 			</body>
 	</html>
