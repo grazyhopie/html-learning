@@ -9,7 +9,7 @@
 				<p>Este video esta hospedado no meu próprio 
 				servidor(arquivo interno no pc).</p>
 				
-					<video width="500" controls>
+					<video width="500" poster="imagem/im-with-you.jpeg" controls>
 						<source src="midia/meu-video.mp4" type="video/mp4">
 						<p>Seu navegador não tem compatibilidade com
 						reprodução de video.</p>
