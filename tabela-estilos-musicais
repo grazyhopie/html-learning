@@ -1,0 +1,32 @@
+<!doctype html>
+	<html lang="pt-br">
+		<head>
+			<title>tabela</title>
+			<meta charset="utf-8">
+		</head>
+			<body>
+				
+				<h1>Tabela musical</h1>
+				<p>Estilos de música e alguns representantes dos estilos selecionados.</p>
+				
+					<table  width="50%" border="1">
+						<caption>Estilos Musicais</caption>
+							<thead>
+							<tr>
+								<th bgcolor="lightgreen">Pop</th>
+								<th bgcolor="yellow">Rock</th>
+								<th bgcolor="#ccb3ff">Kpop</th>
+								<th bgcolor="lightblue">MPB</th>
+							</tr>
+							</thead>
+								<tbody>
+									<tr>
+										<th>Lady Gaga<video controls src="https://youtu.be/rCF8BLm6gKA"></video></th>
+										<th>Linkin Park</th>
+										<th>BTS</th>
+										<th>Jao</th>
+									</tr>
+								</tbody>
+					</table>
+			</body>		
+	</html>
