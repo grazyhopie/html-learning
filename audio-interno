@@ -1,0 +1,22 @@
+<!doctype html>
+	<html lang="pt-br">
+		<head>
+			<title>audio interno</title>
+			<meta charset="utf-8">
+		</head>
+			<body>
+				
+				<h1>Inserindo audio localmente</h1>
+				<p>O arquivo de audio esta hospedado nos arquivos internos do pc.</p>
+					
+					<!--O arquivo do audio deve estar em uma pasta, no mesmo
+					local que o codigo esta salvo no pc.-->
+					
+					<audio preload="metadata" autoplay controls loop>
+						<source src="midia/meu-audio.mp3" type="audio/mp3">
+						<p>Seu navegador não suporta o elemento de audio.
+						<a href="midia/meu-audio.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+					</audio>
+				
+			</body>
+	</html>
