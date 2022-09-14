@@ -6,10 +6,9 @@
 		</head>
 			<body>
 				<h1>Inserindo Video do Youtube</h1>
-					<iframe width="560" height="315" 
-					src="https://www.youtube.com/embed/p1JPKLa-Ofc" 
-					title="YouTube video player" frameborder="0" 
-					allow="accelerometer; autoplay; clipboard-write;
-					encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<!--Videos com direitos autorais ou muito famosos não aparecem na página-->
+					
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/07d2dXHYb94" title="Pip | A Short Animated Film by Southeastern Guide Dogs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
 			</body>
 	</html>
