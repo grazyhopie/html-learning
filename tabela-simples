@@ -8,7 +8,7 @@
                 <body>
                     <table border="1"> 
                         <caption> Promoções </caption>
-                        <tr>
+                        <tr> <!--Primeira linha-->
                             <th> Dia da Semana </th>
                             <th> Item </th>
                             <th> Preço </th>
