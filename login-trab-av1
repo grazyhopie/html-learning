@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+	<title>Loja Artesanal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+
+body{
+	background-color: #e6ffff;
+}
+
+.myTitle{
+	font-family: 'Anton', serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+.myDiv{
+	background-color:  #ccccff;
+	text-align: left;
+}
+
+.myletter {color: white; text-shadow: black 0.1em 0.1em 0.2em}
+
+.myFieldset{
+ border:1px;
+ background: #d1b3ff;
+}
+
+
+</style>
+	
+</head>
+<body>
+	<header>
+	<br><br>
+		<div class="myTitle"><font color="#49d0d0">Artesenal World</font></div>			
+			
+			<div style="text-align:center"><input type="text" name="text" size="40">
+			<button type="submit" value="submit"><font color="#49d0d0">Pesquisar</font></button>
+			<p>Nossa loja possui tênis, bolsas, calças e diversos outros produtos personalizados feitos a mão com carinho!</p></div>
+			</font>
+			
+	</header>
+	<br><br><br><br><br><br><br>
+	
+	
+	<h1><font size="20">Entre na sua conta</font></h1>
+		<p>Para prosseguir com a compra acesse a sua conta!
+		Caso não possua uma cadastre-se no nosso sistema.</p>
+		<br>
+	
+	<form>
+		<div class="myFieldset">
+		<fieldset>
+				<legend><strong>Login</strong></legend>
+				<label><strong>Email:</strong></label>
+				<input type="email" name="email"><br><br>
+				<label><strong>Senha:</strong></label>
+				<input type="password" maxlength="6" name="senha"><br><br>
+				<button type="submit" value="submit">Entrar</font></button><br><br>
+				
+				<a href="esqueciMinhasenha">Esqueci minha senha.</a>
+				
+		</fieldset></div>
+	</form>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<h1><font size="20">Cadastre-se</font></h1>
+	
+	<form>
+		<div class="myFieldset">
+		<fieldset>
+				<legend><strong>Cadastro</strong></legend>
+				<label for="nome"><strong>Nome:</strong></label>
+				<input type="text" name="nome"><br><br>
+				<label for="address"><strong>Endereço:</strong></label>
+				<input type="text" name="endereco"><br><br>
+				<label for="phone"><strong>Telefone(com DDD):</strong></label>
+				<input type="text" name="phone"><br><br>
+				<label for="cpf"><strong>CPF:</strong></label>
+				<input type="number" name="cpf"><br><br>
+				<label for="data"><strong>Data de nascimento(DD/MM/AAAA):</strong></label>
+				<input type="date" name="data"><br><br>
+				<label for="senha"><strong>Digite uma senha com 6 dígitos:</strong></label>
+				<input type="password" maxlength="6" name="senha"><br><br>
+				<label for="senha"><strong>Confirme a sua senha:</strong></label>
+				<input type="password" maxlength="6" name="senha"><br><br>
+				
+				<input type="checkbox" name="termo" value="termo">Declaro que li e concordo com os termos<br><br>
+				</fieldset></div>
+	</form>
+	
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+<footer>
+			
+			<div class="myDiv">
+			
+				<div style="text-align:left"><img src="https://pbs.twimg.com/media/FdDVGbAXEAcrG_e?format=png&name=small" width="160" height="160" alt="logotipo"/></div>
+					<div style="text-align:center"><h1><font size="100" color="#9933ff">Personalize sua vida!</h1></font></div>
+					
+			<br><br>
+			
+					<div class="myletter">
+					<h2>Formas de Pagamento:</h2></div>
+					<img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" width="100" height="100" alt="visa"/>
+					<img src="https://cdn-icons-png.flaticon.com/512/196/196565.png" width="100" height="100" alt="paypal"/>
+					<img src="https://cdn-icons-png.flaticon.com/512/177/177025.png" width="100" height="100" alt="credit"/>
+					<img src="https://logopng.com.br/logos/pix-106.svg" width="100" height="100" alt="pix"/>
+
+			<br><br><br><br><br>
+				
+				
+				<div class="myletter">			
+				<h2>Digie seu email para receber novidades:<h2></div>
+					<input type="email" name="email" placeholder="email">
+					<button type="submit" value="submit"><font color="#49d0d0">Enviar</font></button>
+
+							
+						
+						<div style="text-align:right">
+							<div class="myletter">
+								<h2>Contato:</h2>
+								<p><h2><font color="white">(21) 947896698 </font></h2></div><br><br>
+								<img src="https://logopng.com.br/logos/instagram-40.svg" width="30" height="30" alt="ig"/>
+								<img src="https://logopng.com.br/logos/whatsapp-33.svg" width="30" height="30" alt="zap"/><br>
+								
+								
+								<a href ="artesenalworld@gmail.com">artesenalworld@gmail.com </a></p></div>
+
+							
+							<h7>© 2022 copyright Artesenal World | Todos os direitos reservados.</h7>
+							
+			</div>
+		
+		
+</footer>
+			
+</body>
+</html>
+	
