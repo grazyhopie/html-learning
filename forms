@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	
+	<div>
+		<h1>Cadastro de somebody</h1>
+		<p>Complete suas informações</p>
+		<br>
+	</div>
+	
+	<form>
+		<fieldset>
+			<div>
+				<label><strong>Nome</strong></label>
+				<input type="text" name="nome" size="40"><br><br>
+			</div>
+			
+			<div>
+				<label><strong>Sobrenome</strong></label>
+				<input type="text" name="sobrenome" size="40">
+			</div>	
+		</fieldset>
+		
+		<br>
+		
+		<div>
+			<label><strong>Email</strong></label>
+			<input type="email" name="email">
+		</div>
+		
+		<br>
+		
+		<div>
+			<label><strong>De qual lado da aplicação você desenvolve?</strong></label>
+				<label>
+					<input type="radio" name="devweb" value="frontend">Front-end
+				</label>
+				<label>
+					<input type="radio" name="devweb" value="backend">Back-end
+				</label>
+				<label>
+					<input type="radio" name="devweb" value="fullstack">Fullstack
+				</label>
+				
+		<br>
+		<br>
+		<div>
+			<label><strong>Senior idade</strong></label>
+			<select name="senioridade">
+				<option selected disable value=" ">Selecione</option>
+				<option value="junior">Junior</option>
+				<option value="pleno">Pleno</option>
+				<option value="senior">Senior</option>
+			</select>
+		</div>
+		
+		<br><br>
+		
+		<fieldset>
+			<div>
+				<label><strong>Selecione as tecnologias que utiliza:</strong></label><br>
+				<input type="checkbox" name="tecnologia1" value="html">HTML<br>
+			    <input type="checkbox" name="tecnologia2" value="css">CSS<br>
+				<input type="checkbox" name="tecnologia3" value="php">PHP<br>
+				<input type="checkbox" name="tecnologia4" value="javascript">Javascript<br>
+				<input type="checkbox" name="tecnologia5" value="phython">Phython<br>
+				<input type="checkbox" name="tecnologia6" value="c#">C#<br>
+			</div>
+		</fieldset>
+		
+		<div>
+			<br>
+			<label><strong>Conte um pouco da sua experiência:</strong></label><br>
+			<textarea row="6" style="width: 26em"  name="esperiencia">Comentarios/Sugestoes:</textarea>
+		</div>
+		
+		<br><br>
+		
+		<button type="submit" value="submit"><font color="red">Salvar</font></button>
+		<button type="reset" value="reset">Voltar</button>
+		
+		
+			
+
+
+
+
+	</form>
+	
+</body>
+</html>
