@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+	<title>Loja Artesanal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+
+body{
+	background-color: #e6ffff;
+}
+
+.myTitle{
+	font-family: 'Anton', serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+.myDiv{
+	background-color:  #ccccff;
+	text-align: left;
+}
+
+.myletter {color: white; text-shadow: black 0.1em 0.1em 0.2em}
+
+.myFieldset{
+ border:1px;
+ background: #d1b3ff;
+}
+
+
+</style>
+	
+</head>
+<body>
+	<header>
+	<br><br>
+		<div class="myTitle"><font color="#49d0d0">Artesenal World</font></div>			
+			
+			<div style="text-align:center"><input type="text" name="text" size="40">
+			<button type="submit" value="submit"><font color="#49d0d0">Pesquisar</font></button>
+			<p>Nossa loja possui tênis, bolsas, calças e diversos outros produtos personalizados feitos a mão com carinho!</p></div>
+			</font>
+			
+	</header>
+	<br>
+    
+    	<div style="text-align:center"><h1><font color="#8c1aff">Carrinho de Compras</h1></font></div><br>
+        
+        
+    <ul>
+    	<li><h2>Produto Selecionado<h2></li>
+    </ul>
+    
+     <img src="https://i.pinimg.com/564x/c6/c9/2d/c6c92d013a5519d9be4026615d6da952.jpg" width="300" height="300" alt="calca-dois"/><br><br><br>
+    
+    <h2><font color=" #8080ff">Informações do Produto:</font></h2>
+    
+   	<input type="checkbox" name="tamanho1" value="p" checked>P
+    <input type="checkbox" name="tamanho2" value="m">M
+    <input type="checkbox" name="tamanho3" value="g">G
+    <input type="checkbox" name="tamanho4" value="gg">GG
+    <br><br><br>
+    
+    <h2><font color=" #8080ff">Possui algum Cupom Promocional? Cole aqui.</font></h2>
+		<fieldset style="background:#d1b3ff;">
+		<label for="cupompromo"><strong>Cupom:</strong> </label>
+		<input type="text" name="cupompromo" size="8">
+		<input type="button" value="Validar"></button>
+		</fieldset><br><br><br>
+        
+        <h2><font color=" #8080ff">Selecione uma Forma de Pagamento.</font></h2>
+        <br>
+        
+    <h2>Cartão de Crédito/débito<h2>
+        <img src="https://cdn-icons-png.flaticon.com/512/177/177025.png" width="100" height="100" alt="credit"/>
+        <input type="checkbox" name="credit" value="credit"> Selecionar
+        <br><br><br><br><br><br><br>
+        
+        <hr style="border-style: dashed; color:#9900ff;">
+        
+        <h2>Boleto<h2>
+         <img src="https://cdn-icons-png.flaticon.com/512/5740/5740943.png" width="100" height="100" alt="boleto"/>
+         <input type="checkbox" name="boleto" value="boleto"> Selecionar
+         <br><br><br><br><br><br>
+         
+         <hr style="border-style: dashed; color:#9900ff;">
+         
+        
+        <h2>Pix<h2>
+        <img src="https://logopng.com.br/logos/pix-106.svg" width="100" height="100" alt="pix"/>
+        <input type="checkbox" name="boleto" value="boletpo"> Selecionar
+        <br><br><br><br><br><br>
+        
+        <hr style="border-style: dashed; color:#9900ff;">
+        <br><br>
+        
+        <fieldset style="background:#d1b3ff;">
+        <h2>Subtotal: R$ 200,00</h2>
+		</fieldset>
+        <br><br><br>
+        
+        
+        
+        
+        <input type="button" value="Finalizar compra"></button>
+	
+       
+          <br><br><br><br><br><br><br>
+    
+
+<footer>
+			
+			<div class="myDiv">
+			
+				<div style="text-align:left"><img src="https://pbs.twimg.com/media/FdDVGbAXEAcrG_e?format=png&name=small" width="160" height="160" alt="logotipo"/></div>
+					<div style="text-align:center"><h1><font size="100" color="#9933ff">Personalize sua vida!</h1></font></div>
+					
+			<br><br>
+			
+					<div class="myletter">
+					<h2>Formas de Pagamento:</h2></div>
+					<img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" width="100" height="100" alt="visa"/>
+					<img src="https://cdn-icons-png.flaticon.com/512/196/196565.png" width="100" height="100" alt="paypal"/>
+					<img src="https://cdn-icons-png.flaticon.com/512/177/177025.png" width="100" height="100" alt="credit"/>
+					<img src="https://logopng.com.br/logos/pix-106.svg" width="100" height="100" alt="pix"/>
+
+			<br><br><br><br><br>
+				
+				
+				<div class="myletter">			
+				<h2>Digite seu email para receber novidades:<h2></div>
+					<input type="email" name="email" placeholder="email">
+					<button type="submit" value="submit"><font color="#49d0d0">Enviar</font></button>
+
+							
+						
+						<div style="text-align:right">
+							<div class="myletter">
+								<h2>Contato:</h2>
+								<p><h2><font color="white">(21) 947896698 </font></h2></div><br><br>
+								<img src="https://logopng.com.br/logos/instagram-40.svg" width="30" height="30" alt="ig"/>
+								<img src="https://logopng.com.br/logos/whatsapp-33.svg" width="30" height="30" alt="zap"/><br>
+								
+								
+								<a href ="artesenalworld@gmail.com">artesenalworld@gmail.com </a></p></div>
+
+							
+							<h7>© 2022 copyright Artesenal World | Todos os direitos reservados.</h7>
+							
+			</div>
+		
+		
+</footer>
+			
+</body>
+</html>
+	
+
+
