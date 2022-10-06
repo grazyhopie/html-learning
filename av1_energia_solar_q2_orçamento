@@ -1,0 +1,94 @@
+<!doctype>
+<html>
+<head>
+	<title>Energia Solar-</title>
+	<meta charset="utf-8">
+	<style>
+		body{
+			background-color: #ffffb3;
+		}
+		
+		.mYtitulo{
+			font-family: 'Anton', serif;
+			font-size: 58px;
+			text-align: center;
+			color:  #ff6600;
+		} 
+		
+		.myFieldset{
+			border:1px;
+			background: #ffd480;
+		}
+	</style>
+</head>
+<body>
+	<header> 
+	<br><br>
+				<div class="mYtitulo">Orçamento de Kits</div>
+	</header>
+	<br><br>
+	
+	<h1>Cadastre-se para garantir o seu kit!</h1>
+	<form>
+		<div class="myFieldset">
+		<fieldset>
+				<legend><strong>Cadastro</strong></legend>
+				<label for="nome"><strong>Nome:</strong></label>
+				<input type="text" name="nome"><br><br>
+				<label for="address"><strong>Endereço:</strong></label>
+				<input type="text" name="endereco"><br><br>
+				<label for="phone"><strong>Telefone(com DDD):</strong></label>
+				<input type="text" name="phone"><br><br>
+				<label for="cpf"><strong>CPF:</strong></label>
+				<input type="number" name="cpf"><br><br>
+				<label for="data"><strong>Data de nascimento(DD/MM/AAAA):</strong></label>
+				<input type="date" name="data"><br><br>
+				<button type="submit" value="submit">Enviar</button>
+				<button type="reset" value="reset">Voltar</button>
+		</fieldset></div>
+	</form>
+	<br><br>
+	<hr>
+	<br><br>
+	
+	<h1>Escolher kit:</h1>
+	<p>Os valores de kits (sem a instalação) mais comuns de energia solar fotovoltaica, tanto para residências populares quanto para mansões, são os seguintes:</p>
+	<form>
+		<div class="myFieldset">
+		<fieldset>
+				<legend><strong>Selecione um Valor</strong></legend>
+				<select name="kit" id="kit">
+					<option value="kit1">Kit 1: 2,23kWp - R$11.249,00</option>
+					<option value="kit2">Kit 2: 4.9kWp -R$20.009,00</option>
+					<option value="kit3">Kit 3: 4.9kWp -R$20.009,00</option>
+					<option value="kit4">Kit 4: 8.9kWp –R$33.179,00</option>
+					<option value="kit5">Kit 5: 12,02kWp –R$42.689,00</option>	
+		</fieldset></div>
+	</form>
+	<br><br>
+	
+	<form>
+		<div class="myFieldset">
+		<fieldset>
+			<legend><strong>Deseja agendar visita tecnica?</strong></legend>
+		    <button type="agendar" value="agendar">Sim</button><br><br>
+				    <label for="data"><strong>Data do agendamento(DD/MM/AAAA):</strong></label>
+					<input type="date" name="data"><br><br>
+					<button type="submit" value="submit">Confirmar</button>
+		</fieldset></div>
+	</form>
+	
+	<br><br><br><br><br><br>
+	<h3 style="color:#ff4da6">Saiba mais sobre energia solar!</h3>
+	<ul>
+		<li> <a href= "https://www.tecmundo.com.br/energia-solar">Energia solar</a></li>
+		<li> <a href="https://canalsolar.com.br/energia-solar-e-a-fonte-renovavel-que-mais-contrata-mulheres-no-mundo/">Fonte Renovavel.</a></li>
+	</ul>
+	<br><br>
+	<hr>
+	<footer>
+		<p>Referência: <a href="https://www.portalsolar.com.br/o-que-e-energia-solar.html">Fonte</a></p><br>
+		<h7>2022 copyright | Todos os direitos reservados.</h7>
+	</footer>
+</body>
+</html>
