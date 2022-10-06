@@ -1,0 +1,123 @@
+<!doctype>
+<html>
+<head>
+	<title>Energia Solar</title>
+	<meta charset="utf-8">
+	<style>
+		body{
+			background-color: #ffffb3;
+		}
+		
+		.mYtitulo{
+			font-family: 'Anton', serif;
+			font-size: 100px;
+			text-align: center;
+			color:  #ff6600;
+		} 
+		
+	</style>
+</head>
+<body>
+	<header> 
+	<br><br>
+				<div class="mYtitulo">Energia Solar☼</div>
+	</header>
+	<br><br>
+	
+	<figure>
+		<img src="https://s3.us-east-2.amazonaws.com/legacy.portalsolar.com.br/Content/EditorImages/images/Energia%20solar%20tem%20grande%20crescimento%20em%20pa%c3%adses%20em%20desenvolvimento%202.jpg" width="500" height="300" alt="energia-solar"/>
+		<figurecaption>Imagem de Energia Solar</figurecaption>
+	</figure>
+	<br><br>
+		<h2>O que é energia solar?</h2>
+			<p>Em resumo, a energia solar é a energia proveniente da luz e do calor do sol,
+			sendo uma fonte alternativa e sustentável que pode ser utilizada tanto para geração
+			de eletricidade (pelos sistemas de energia solar fotovoltaica e heliotérmica) quanto para
+			aquecimento de água (com os aquecedores de energia solar térmica).</p><br>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/JTqz_xzozl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+			<br><br>
+		
+		<h2>O que é energia?</h2>
+			<p>A energia é um conceito amplo que pode ter diversas aplicações em várias áreas do conhecimento.
+			Quando falamos de energia elétrica, trata-se da forma mais utilizada no mundo para alimentar equipamentos.
+			Ela é originada da energia potencial elétrica, o que permite estabelecer uma corrente elétrica entre dois pontos.</p><br>
+			
+		<h2>Qual a definição de energia solar?</h2>
+			</p>A energia solar é uma fonte alternativa, renovável e sustentável de energia
+			que provém da radiação eletromagnética (luz e calor) emanada diariamente pelo sol. 
+			Essa energia pode ser utilizada por diferentes tecnologias, como aquecedores solares, painéis fotovoltaicos
+			e usinas heliotérmicas (ou termossolares).<br>
+			Hoje em dia, o conceito de energia solar é comumente associado à geração limpa de
+			eletricidade pelos painéis de energia fotovoltaica (painéis fotovoltaicos), que transformam a luz do sol diretamente em energia elétrica. 
+			Na energia solar fotovoltaica, quando as partículas de energia da luz do sol (fótons)
+			incidem sobre os painéis solares, ocorre a geração de uma corrente elétrica que pode ser direcionada e utilizada para alimentar residências, empresas e indústrias, tanto na cidade quanto em áreas rurais.</p><br>
+
+			<h2>Para que serve a energia solar?</h2>
+			<p>A energia proveniente do sol é indispensável para a manutenção da vida na Terra e serve como catalisadora de todos os processos térmicos, dinâmicos e químicos, sejam eles naturais (como a fotossíntese ou o ciclo hidrológico) ou artificialmente desenvolvidos pelo homem.  
+			Desde as primeiras civilizações, o homem também utilizava a energia solar para realizar diferentes trabalhos, como a geração de fogo através do calor dos raios de sol concentrados por meio de vidros ou espelhos.
+			Hoje, a energia solar representa para o homem a sua maior e mais segura fonte de energia renovável para a geração limpa de eletricidade e calor, sem grandes impactos ao meio ambiente e com grande capacidade de aproveitamento.
+			Tipos de energia solar
+			Existem as mais variadas formas de aproveitar a energia solar como uma fonte de energia renovável. Os principais tipos de energia solar utilizados são a energia solar fotovoltaica, a energia solar térmica e a energia heliotérmica (termossolar).</p><br>
+			
+		<h2>Energia Solar Fotovoltaica</h2>
+		<h3>Energia fotovoltaica gerada por células solares</h3>
+		<p>A energia solar fotovoltaica é a transformação direta da luz do sol em energia elétrica por meio de células
+		fotovoltaicas (foto à direita), que são fabricadas a partir de materiais semicondutores, sendo o Silício (Si) 
+		o mais utilizado.
+		Quando os fótons da luz solar incidem sobre as células fotovoltaicas, eles energizam os elétrons do seu que se movimentam
+		gerando uma corrente elétrica. Os módulos fotovoltaicos utilizados para gerar energia solar elétrica em casas e empresas 
+		são compostos por dezenas de células, que são ligadas em série e seguramente encapsuladas dentro da moldura para garantir 
+		proteção e durabilidade. Popularmente, os módulos fotovoltaicos são conhecidos como placas solares. 
+		Desta forma, a capacidade de geração elétrica do módulo fotovoltaico (placa solar) é igual à soma das 
+		capacidades de cada célula voltaica. Para atender ao consumo elétrico de um imóvel, basta calcular a 
+		quantidade necessária de placas solares, que serão interligadas para formar o painel fotovoltaico e, depois, 
+		conectadas ao inversor e demais equipamentos do sistema solar fotovoltaico.
+		No Brasil, o número de instalações de energia solar fotovoltaica disparou nos últimos anos em resposta aos
+		aumentos da conta de luz, além da queda de preços da tecnologia e da facilidade de acesso por meio de
+		financiamento de energia solar.</p><br><br>
+		
+		<figure>
+			<img src="https://s3.static.brasilescola.uol.com.br/img/2019/01/aproveitamento-energia-solar.jpeg" width="500" height="300" alt="energia-solar2"/>
+			<figurecaption>Energia solar fotovoltaica</figurecaption>
+		</figure>
+		<br><br>
+		
+		<h2>Energia Solar Térmica</h2>
+			<p>A energia solar térmica também é muito utilizada em todo o mundo por meio dos sistemas de aquecimento solar, 
+			conhecidos como aquecedores solares. Com o uso de coletores solares (placas de aquecimento solar), esses sistemas 
+			captam o calor presente na radiação solar e o transferem para o aquecimento da água (ou outro tipo de líquido) 
+			armazenada em seu reservatório (boiler) que será utilizada posteriormente na casa ou empresa. A tecnologia de 
+			aquecedores solares já está presente no Brasil desde a década de 1970, tendo se popularizado entre casas e 
+			empresas e aplicada em diversos programas sociais de moradia.É importante atentar que, embora seja possível
+			gerar eletricidade a partir da energia solar térmica, isto não ocorre nos aquecedores solares. Os sistemas
+			de aquecimento solar térmico apenas captam e transferem o calor da radiação solar.</p><br><br>
+			
+		<h2>A energia heliotérmica</h2>
+			<p>A energia heliotérmica, ou Energia Solar Concentrada (Concentrated Solar Power - CSP), 
+			é outra forma de utilizar o sol para gerar energia elétrica, mas neste caso através do calor de sua radiação.
+			Uma usina de energia heliotérmica, também chamada de termossolar, utiliza centenas ou milhares de espelhos (heliostatos)
+			para captar os raios de sol e refleti-los de forma concentrada em um único ponto, no qual é fixado um receptor que 
+			contém um líquido. Com o calor dos raios de sol concentrados, o líquido se aquece e gera vapor, o qual é escoado 
+			e utilizado para alimentar as turbinas que geram energia elétrica por meio da energia mecânica. Repare que o
+			funcionamento de uma usina termossolar é bem parecido com o de uma térmica tradicional, a única diferença 
+			é a fonte de calor utilizada para gerar o vapor, que neste caso é a luz limpa e gratuita do sol. Embora apresentem 
+			bom rendimento na geração elétrica e consigam armazenar o calor para uso durante a noite, as usinas de energia 
+			heliotérmica estão longe da popularidade alcançada pelas usinas solares fotovoltaicas, em grande parte por
+			conta da queda de preços destas e de certos perigos ambientais relacionados às termossolares.</p><br><br>
+					
+	<h3 style="color:#ff4da6">Saiba mais sobre energia solar!</h3>
+	<ul>
+		<li> <a href= "https://www.tecmundo.com.br/energia-solar">Energia solar</a></li>
+		<li> <a href="https://canalsolar.com.br/energia-solar-e-a-fonte-renovavel-que-mais-contrata-mulheres-no-mundo/">Fonte Renovavel.</a></li>
+	</ul>
+	<br><br>
+	<hr>
+	<footer>
+		<p>Referência: <a href="https://www.portalsolar.com.br/o-que-e-energia-solar.html">Fonte</a></p><br>
+		<h7>2022 copyright | Todos os direitos reservados.</h7>
+	</footer>
+		
+	
+</body>
+</html>
