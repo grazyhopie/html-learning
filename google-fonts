@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>How to use google fonts</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap" rel="stylesheet">
+		<style>
+			h1 {
+				font-family: 'Bebas Neue', cursive;
+			}
+			
+			p {
+				font-family: 'Indie Flower', cursive;
+			}
+		</style>
+</head>
+<body>
+	<header>
+	<h1>Como usar o google fonte?</h1>
+	</header>
+	
+	<p> Para inserir uma fonte do google:<br> 
+		1° entrar no site do google fonts e clicar em uma fonte: https://fonts.google.com <br>
+		2° apertar em "select regular 400(tamanho da fonte)+"<br>
+		3° apertar no quadradinho "view selected families"<br>
+		4° copiar link da seção "embed" e colar antes da
+		tag style no head.<br>
+		5° dentro da tag style vc deve criar um seletor ou escrever um existente na semantica do html(h1, body, p, etc)
+		e depois vc volta no quadradinho "view selected families" e na parte "css rules to specify families"
+		vc copia o textinho dali e cola como parametro no seletor q vc quer.<br>
+		ex: escolhi a fonte 'bebas neue', inseri o link na head e agr no style vou colar o nome da fonte.<br>
+		h1 {
+			font-family: 'Bebas Neue', cursive;
+		}
+	</p>
+</body>
+</html>
