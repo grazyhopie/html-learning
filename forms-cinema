@@ -1,0 +1,78 @@
+<!doctype>
+<html>
+<head>
+	<title>formulário cinema</title>
+	<meta charset="utf-8">
+	<style>
+		.myFieldset{
+			border:1px;
+			background:#e6ffe6;
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<h1>Cinema</h1>
+	</header>
+	<br><br>
+	
+	<form>
+		<div class="myFieldset">
+		<fieldset name="cadastro">
+			<legend><strong>Cadastro</strong></legend>
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome"><br><br>
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" placeholder="e-mail@gmail.com"><br><br>
+			<label for="senha">Senha:</label>
+			<input type="password" maxlength="6" name="senha"><placeholder><br><br>
+			<label for="cpf">CPF:</label>
+			<input type="text" name="cpf" maxlength="11" placeholder="000.000.000-00"><br><br>
+			<button type="submit" value="submit">Cadastrar</button>
+		</fieldset></div>
+	</form>
+	<br><br>
+	<form>
+		<div class="myFieldset">
+		<fieldset name="em cartaz">
+			<legend><strong>Em cartaz</strong></legend>
+			<label>Escolha um filme:</label>
+			<select name="filme">
+				<option selected disable value=" "></option>
+				<option value="vingadores">Vingadores</option>
+				<option value="crepusculo">Crepusculo</option>
+				<option value="a cinco passos de vc">A cinco passos de vc</option>
+				<option value="pantera negra">Pantera negra</option>
+			</select>
+			<br><br>
+			<label for="data">Data:</label>
+				<input type="date" name="data">
+				<br><br>
+			<label for="sala">Escolha uma sala: </label><br>
+				<input type="radio" name="sala" value="sala01">Sala 01<br>
+				<input type="radio" name="sala" value="sala02">Sala 02<br>
+				<input type="radio" name="sala" value="sala03">Sala 03<br>
+				<input type="radio" name="sala" value="sala04">Sala 04<br>
+				<input type="radio" name="sala" value="sala05">Sala 05<br>
+				<br><br>
+			<label for="hora">Escolha uma sessão: </label>
+			<select name="hora">
+				<option selected disable value=" "></option>
+				<option value="14h30">14h30</option>
+				<option value="17h">17h</option>
+				<option value="20h15">20h15</option>
+				<option value="22h">22h</option>
+			</select>
+			<br><br>
+			<button type="submit" value="submit">Confirmar</button>
+		</fieldset></div>
+	</form>
+	<br><br>
+	<!--feedback:sugestoes, criticas-->
+	<label for="feedback">Comentários/Sugestões: </label><br>
+		<textarea rows="4" cols="27"></textarea><br><br>
+		<button type="submit" value="submit">Enviar</button>
+</body>
+</html>
+
+	
