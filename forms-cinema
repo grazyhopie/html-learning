@@ -3,7 +3,14 @@
 <head>
 	<title>formulário cinema</title>
 	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap" rel="stylesheet">
 	<style>
+		h1 {
+			font-family: 'Bebas Neue', cursive;
+		}
+			
 		.myFieldset{
 			border:1px;
 			background:#e6ffe6;
@@ -68,11 +75,9 @@
 		</fieldset></div>
 	</form>
 	<br><br>
-	<!--feedback:sugestoes, criticas-->
 	<label for="feedback">Comentários/Sugestões: </label><br>
 		<textarea rows="4" cols="27"></textarea><br><br>
 		<button type="submit" value="submit">Enviar</button>
+		<br><br>
 </body>
 </html>
-
-	
