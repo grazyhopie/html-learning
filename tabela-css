@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<title>tabela com css interno</title>
+	<meta charset="utf-8">
+<style>
+	th {
+		background-color: #2EFFEE;
+	}
+	
+	.difer {
+			backgound-color: #b3ffff;
+	}
+</style>
+</head>
+<body>
+	<table>
+		<caption style="background-color: #76EEC6">Tabela B</caption>
+			<th>Indivíduo</th>
+			<th>Massa corporal(kg)</th>
+			<th>Consumo anual de água(L)</th>
+			<tr style="text-align: center">
+				<td>1</td>
+				<td>90</td>
+				<td>850</td>
+			</tr>
+			<tr style="text-align: center">
+				<td class="difer">2</td>
+				<td class="difer">90</td>
+				<td class="difer">850</td>
+			</tr>
+			<tr style="text-align: center">
+				<td>3</td>
+				<td>90</td>
+				<td>850</td>
+			</tr>
+			<tr style="text-align: center">
+				<td class="difer">4</td>
+				<td class="difer">90</td>
+				<td class="difer">850</td>
+			</tr>
+			<tr style="text-align: center">
+				<td>5</td>
+				<td>90</td>
+				<td>850</td>
+			</tr>
+			<tr style="text-align: center">
+				<td class="difer">6</td>
+				<td class="difer">90</td>
+				<td class="difer">850</td>
+			</tr>
+	</table>	
+				
+</body>
+</html>
