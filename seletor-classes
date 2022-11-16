@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>exercicio</title>
+	<meta charset="utf-8">
+<style>
+	.fundoAmarelo{background-color: yellow;}
+	.fundoVerde{background-color: green;}	
+</style>
+</head>
+<body>
+	<h2 class="fundoAmarelo">Seletor css: class</h2>
+	<p class="fundoAmarelo">Lista de cores:</p>
+	<ul>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+	</ul>
+	
+	<h2 class="fundoVerde">Seletor css: class com div</h2>
+	<p>Lista de cores:</p>
+	<div class="fundoVerde">
+	<ul>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+		<li>Amarelo</li>
+	</ul>
+	</div>
+</body>
+</html>
