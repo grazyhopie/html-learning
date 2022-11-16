@@ -1,0 +1,14 @@
+<!doctype html>
+<!--Fazer paragrafos com fonte da letra amarela e fundo preto(com CSS interno)-->
+<html>
+<head>
+	<title>exercicio</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Testando CSS interno</h1>
+	<p style="background-color: black; color: yellow;">1° parágrafo</p>
+	<p style="background-color: black; color: yellow;">Agora o 2° </p>
+	<p style="background-color: black; color: yellow;">E um 3° também</p>
+</body>
+</html>
