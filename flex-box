@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	<title>Flexbox css</title>
+	<meta charset="utf-8">
+<style>
+<!--flex box:
+	1°propriedade:
+	display: flex; (identificar que a tag vai ser o container de flexbox)
+	
+	2°propriedade:
+	*flex-direction*(identificar qual vai ser o eixo principal e o perpedicular)
+	flex-direction: row;(posição horizontal- eixo principal esquerda)
+	flex-direction: row-reverse;(posição horizontal- eixo principal direita)
+	flex-direction: colum;(eixo principal na vertical em foema de coluna)
+	flex-direction: colum-reverse;(eixo principal na vertical em foema de coluna- sentido trocado)
+	
+	3°propriedade:
+	*justify-content*(alinhar os elementos no eixo principal)
+	justify-content: flex-start;(elementos vão para o inicio - esquerda)
+	justify-content: flex-end; (elementos vão para o final - direita)
+	justify-content: center; (elemento centralizado)
+	justify-content: space-between; (espaço entre os elementos o 1° no inicio, o ultimo no final e os demais no meio)
+	justify-content: space-around; (espaço entre os elementos e por fora(margem) o 1° no inicio, o ultimo no final e os demais no meio)
+	
+	4°propriedade:
+	*align-items*(alinhar os elementos no eixo perpendicular)
+	align-items: flex-start;(elementos juntinhos na parte superior da box)
+	align-items: flex-end;(elementos juntinhos na parte inferior da box
+	align-items: center;(elementos juntinhos na parte central da box)
+	align-items: stretch;(elementos se estendem do inicio ao fim da box)
+	align-items: baseline; (alinha conteudo com base no conteudo em formato de escadinha)
+	
+	5°propriedade:
+	*flex-wrap*
+	flex-wrap: nowrap;(mantem todos os elementos jutinhos)
+	flex-wrap: wrap; (caso sejam mtos elemetos, quando os ultimos elementos chegam no final eles descem uma linha)
+	flex-wrap: wrap-reverse; (elementos chegam ao final da linha e vão para cima)
+	
+	6°propriedade:
+	flex-flow: row wrap;
+	
+	7°propriedade:
+	*align-content*(alinhar elementos em mais de uma linha) 
+	align-content: flex-start;
+	align-content: flex-end;
+	align-content: center;
+	align-content: space-between;
+	align-content: space-around;
+	
+	8°propriedade:
+	*gap*
+	
+	
+	
+	
+	
+	
+
+	
+	-->
+.container {
+			  display: flex;
+			  flex-direction: row;
+			  justify-content: center;
+			  align-items: center;
+			  flex-wrap: wrap;
+			  align-content: center;
+			  row-gap: 10px;
+			  column-gap: 30px;
+			  background-color: #f9eac3;
+			  padding: 16px;
+			  height: 500px;
+	}
+  
+
+.bloco-1 {
+		  background-color: #c6d8f0;
+		  height: 150px;
+		  width: 150px;
+		  text-align: center;
+		  font-size: 40px;
+		  font-family: 'Courier New', Courier, monospace;
+		  border-radius: 16px;
+}
+
+.bloco-2 {
+		  background-color: #d8bfd8;
+		  height: 150px;
+		  width: 150px;
+		  text-align: center;
+		  font-size: 40px;
+		  font-family: 'Courier New', Courier, monospace;
+		  border-radius: 16px;
+}
+
+.bloco-3 {
+		  background-color: #ff9999;
+		  height: 150px;
+		  width: 150px;
+		  text-align: center;
+		  font-size: 40px;
+		  font-family: 'Courier New', Courier, monospace;
+		  border-radius: 16px;
+}
+</style>
+</head>
+<body>
+
+<main class="container">
+	<div class="bloco-1"></div>
+	<div class="bloco-2"></div>
+	<div class="bloco-3"></div>
+</main>
+
+</body>
+</html>
