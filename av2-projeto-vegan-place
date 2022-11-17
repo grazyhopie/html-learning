@@ -3,9 +3,25 @@
 <head>
 	<title>Vegan Place</title>
 	<meta charset="utf-8">
+<style>
+	div {
+  background-color: #bbff99;
+  width: 900px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+</style>
 </head>
 <body>
 <header>
+	<div><img src="https://i.pinimg.com/564x/43/81/bb/4381bbed62facabf02376c5d26e46a85.jpg" width="200" alt="logotipo"/>
+	<h4>Cardápio</h4>
+	<h4>Blog</h4>
+	<h4>Contato</h4>
+	
+	</div>
 </header>
 
 
