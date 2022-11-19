@@ -49,16 +49,11 @@
 	align-content: space-around;
 	
 	8°propriedade:
-	*gap*
+	*gap*(espaço entre os elementos)
+	gap: 20px(espaço entre as linhas) 30px(espaços entre as colunas);
+	row-gap: 10px;(distancia entre as linhas apenas)
+	column-gap: 30px;(distancia entre as colunas apenas)-->
 	
-	
-	
-	
-	
-	
-
-	
-	-->
 .container {
 			  display: flex;
 			  flex-direction: row;
