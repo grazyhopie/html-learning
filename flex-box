@@ -52,7 +52,12 @@
 	*gap*(espaço entre os elementos)
 	gap: 20px(espaço entre as linhas) 30px(espaços entre as colunas);
 	row-gap: 10px;(distancia entre as linhas apenas)
-	column-gap: 30px;(distancia entre as colunas apenas)-->
+	column-gap: 30px;(distancia entre as colunas apenas)
+	
+	9°propriedade:
+	*order*(ordenar items individualmente com valores)
+	order: 3 ;
+	-->
 	
 .container {
 			  display: flex;
