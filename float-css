@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>float</title>
+	<meta charset="utf-8">
+<style>
+.blocos{
+		width: 300px;
+		height: 300px;
+		color: #FFF;
+        text-align: center;
+        margin-left: 30px;
+}
+
+.bloco01{
+		background: red;
+}
+
+.bloco02{
+		background: green;
+        float: right;
+}
+
+.bloco03{
+		background: blue;
+        float: left;
+}
+
+	
+</style>
+</head>
+<body>
+	<div class="blocos">
+		<div class="bloco01"> Bloco 01</div>
+		<div class="bloco02"> Bloco 02</div>
+		<div class="bloco03"> Bloco 03</div>
+    </div>
+</body>
+</html>
