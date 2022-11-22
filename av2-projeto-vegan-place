@@ -23,8 +23,16 @@ body{
 			height: 100%;
 			width: 260px;
 			background: #00804d;
+            z-index: 100;
+            transition: all 0.5 ease;
 }
 
+.MenuLateral.close{
+			width: 100px;
+			background: #00804d;
+            z-index: 100;
+            
+}
 .MenuLateral .detalhes-da-logo{
 			height: 60px;
 			width: 100%;
@@ -39,17 +47,30 @@ body{
 			min-width: 78px;
 			text-align: center;
 			line-height: 50px;
+            cursor: pointer;
 }
 
 .MenuLateral .detalhes-da-logo .logo-name{
 			font-size: 22px;
 			color: #fff;
 			font-weight: 600;
+            transition: 0.3s ease;
+            transition-delay: 0.1s;
+}
+
+.MenuLateral.close .detalhes-da-logo .logo-name{
+			transition-delay: 0s;
+			opacity: 0;
+            pointer-events: none;
 }
 
 .MenuLateral .nav-links{
 			height: 100%;
 			padding-top: 30px;
+}
+
+.MenuLateral .nav-links{
+			overflow: visible;
 }
 
 .MenuLateral .nav-links li{
@@ -65,10 +86,11 @@ body{
 .MenuLateral .nav-links li i{
 			height: 50px;
 			min-width: 78px;
-			text-align: center;
+			text-align: left;
 			line-height: 50px;
 			color: #fff;
 			font-size: 20px;
+            cursor: pointer;
 }
 
 .MenuLateral .nav-links li a{
@@ -81,6 +103,11 @@ body{
 			font-size: 18px;
 			font-weight: 400;
 			color: #fff;
+}
+
+.MenuLateral.close .nav-links li a .link_name{
+			opacity: 0;
+            pointer-events: none;
 }
 
 .home-section{
@@ -110,7 +137,8 @@ body{
 }
 
 .home-section .home-content .bx-menu{
-			margin: 0 15px;
+			margin: 0 30px;
+            cursor: pointer;
 }
 
 .home-section .home-content .text{
@@ -121,6 +149,7 @@ body{
 </style>
 </head>
 <body>
+	<header>
 	<div class="MenuLateral">
 		<div class="detalhes-da-logo">
 			<i class='bx bxs-leaf' ></i>
@@ -156,7 +185,8 @@ body{
 	<section class="home-section">
     	<div class="home-content">
         	<i class='bx bx-menu'></i>
-            <span class="text">Dropdown MenuLateral</span>
+            <span class="text">VeganPlace</span>
+            	<i class='bx bxs-leaf' ></i>
     </section>
 <script>
 	let MenuLateral = document.querySelector(".MenuLateral");
@@ -166,7 +196,9 @@ body{
     	MenuLateral.classList.toggle("close");
 });
 </script>
-	
+
+
+</header>	
 </body>
 </html>
 
