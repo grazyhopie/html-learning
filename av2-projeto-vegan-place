@@ -85,9 +85,31 @@ body{
 
 .home-section{
 			position: relative;
-            background: red;
+            background: #E4E9F7;
+            height: 100vh;
             left: 260px;
             width: calc(100% - 260px);
+}
+
+.home-section .home-content{
+			height: 60px;
+            display: flex;
+            align-items: center;
+}
+
+.home-section .home-content .bx-menu,
+.home-section .home-content .text{
+			color: #11101d;
+            font-size: 35px;
+}
+
+.home-section .home-content .bx-menu{
+			margin: 0 15px;
+}
+
+.home-section .home-content .text{
+			font-size: 26px;
+            font-weight: 600;        
 }
 
 </style>
@@ -129,9 +151,11 @@ body{
     	<div class="home-content">
         	<i class='bx bx-menu'></i>
             <span class="text">Dropdown MenuLateral</span>
-        
     </section>
 <script>
+	let MenuLateral = document.querySelector(".MenuLateral");
+    let MenuLateralBtn = document.querySelector(".bx-menu");
+    console.log(MenuLateralBtn);
 
 
 </script>
