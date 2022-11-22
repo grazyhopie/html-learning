@@ -83,6 +83,12 @@ body{
 			color: #fff;
 }
 
+.home-section{
+			position: relative;
+            background: red;
+            left: 260px;
+            width: calc(100% - 260px);
+}
 
 </style>
 </head>
@@ -119,13 +125,14 @@ body{
 				</li>
 			</ul>
 	</div>
-	
+	<section class="home-section">
+    	<div class="home-content">
+        	<i class='bx bx-menu'></i>
+            <span class="text">Dropdown MenuLateral</span>
+        
+    </section>
 <script>
 
-<!--
-28:49 How to make dashboard sidebar menu
-https://www.youtube.com/watch?v=ES8vJcUqE7s
---> 
 
 </script>
 	
