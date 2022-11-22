@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+	<title>SideBar</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!--Boxicon cdn link-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<style>
+body{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+}
+
+.MenuLateral{
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 260px;
+			background: #00804d;
+            z-index: 100;
+            transition: all 0.5 ease;
+}
+
+.MenuLateral.close{
+			width: 100px;
+			background: #00804d;
+            z-index: 100;
+            
+}
+.MenuLateral .detalhes-da-logo{
+			height: 60px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+}
+
+.MenuLateral .detalhes-da-logo i{
+			font-size: 30px;
+			color: #fff;
+			height: 50px;
+			min-width: 78px;
+			text-align: center;
+			line-height: 50px;
+            cursor: pointer;
+}
+
+.MenuLateral .detalhes-da-logo .logo-name{
+			font-size: 22px;
+			color: #fff;
+			font-weight: 600;
+            transition: 0.3s ease;
+            transition-delay: 0.1s;
+}
+
+.MenuLateral.close .detalhes-da-logo .logo-name{
+			transition-delay: 0s;
+			opacity: 0;
+            pointer-events: none;
+}
+
+.MenuLateral .nav-links{
+			height: 100%;
+			padding-top: 30px;
+}
+
+.MenuLateral .nav-links{
+			overflow: visible;
+}
+
+.MenuLateral .nav-links li{
+			position: relative;
+			list-style: none;
+			transition: all 0.4s ease;
+}
+
+.MenuLateral .nav-links li:hover{
+			background: #00995c;
+}
+
+.MenuLateral .nav-links li i{
+			height: 50px;
+			min-width: 78px;
+			text-align: left;
+			line-height: 50px;
+			color: #fff;
+			font-size: 20px;
+            cursor: pointer;
+}
+
+.MenuLateral .nav-links li a{
+			display: flex;
+			align-items: center;
+			text-decoration: none;		
+}
+
+.MenuLateral .nav-links li a .link_name{
+			font-size: 18px;
+			font-weight: 400;
+			color: #fff;
+}
+
+.MenuLateral.close .nav-links li a .link_name{
+			opacity: 0;
+            pointer-events: none;
+}
+
+.home-section{
+			position: relative;
+            background: #E4E9F7;
+            height: 100vh;
+            left: 260px;
+            width: calc(100% - 260px);
+            transition: all 0.5 ease;
+}
+
+.MenuLateral.close ~ .home-section{
+			left: 78px;
+            width: calc(100% - 78px);
+}
+
+.home-section .home-content{
+			height: 60px;
+            display: flex;
+            align-items: center;
+}
+
+.home-section .home-content .bx-menu,
+.home-section .home-content .text{
+			color: #11101d;
+            font-size: 35px;
+}
+
+.home-section .home-content .bx-menu{
+			margin: 0 30px;
+            cursor: pointer;
+}
+
+.home-section .home-content .text{
+			font-size: 26px;
+            font-weight: 600;        
+}
+
+</style>
+</head>
+<body>
+	<header>
+	<div class="MenuLateral">
+		<div class="detalhes-da-logo">
+			<i class='bx bxs-leaf' ></i>
+			<span class="logo-name">VeganPlace</span>
+		</div>
+			<ul class="nav-links">
+				<li>
+					<a href="#">
+						<i class='bx bx-phone'></i>
+						<span class="link_name">Contato</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-grid-small'></i>
+						<span class="link_name">Sobre Nós</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-star' ></i>
+						<span class="link_name">Avaliações</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-question-mark'></i>
+						<span class="link_name">FAQ</span>
+					</a>
+				</li>
+			</ul>
+	</div>
+	<section class="home-section">
+    	<div class="home-content">
+        	<i class='bx bx-menu'></i>
+            <span class="text">VeganPlace</span>
+            	<i class='bx bxs-leaf' ></i>
+    </section>
+<script>
+	let MenuLateral = document.querySelector(".MenuLateral");
+    let MenuLateralBtn = document.querySelector(".bx-menu");
+    console.log(MenuLateralBtn);
+    MenuLateralBtn.addEventListener("click", ()=>{
+    	MenuLateral.classList.toggle("close");
+});
+</script>
+</header>	
+ 
+</body>
+</html>
