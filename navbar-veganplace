@@ -1,0 +1,7 @@
+<nav>
+    	<ul>
+    		<li class="items"><a href="#">Cardapio</a></li>
+            <li class="items"><a href="#">Blog</a></li>
+            <li class="items"><a href="#">Contato</a></li>
+    	</ul>
+    </nav>
