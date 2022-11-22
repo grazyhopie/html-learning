@@ -1,34 +1,133 @@
 <!doctype html>
 <html>
 <head>
-	<title>Vegan Place</title>
+	<title>SideBar</title>
 	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!--Boxicon cdn link-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <style>
-	div {
-  background-color: #bbff99;
-  width: 900px;
-  border: none;
-  padding: 5px;
-  margin: 5px;
+body{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
 }
+
+.MenuLateral{
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 260px;
+			background: #00804d;
+}
+
+.MenuLateral .detalhes-da-logo{
+			height: 60px;
+			width: 100%;
+			display: flex;
+			align-items: center;
+}
+
+.MenuLateral .detalhes-da-logo i{
+			font-size: 30px;
+			color: #fff;
+			height: 50px;
+			min-width: 78px;
+			text-align: center;
+			line-height: 50px;
+}
+
+.MenuLateral .detalhes-da-logo .logo-name{
+			font-size: 22px;
+			color: #fff;
+			font-weight: 600;
+}
+
+.MenuLateral .nav-links{
+			height: 100%;
+			padding-top: 30px;
+}
+
+.MenuLateral .nav-links li{
+			position: relative;
+			list-style: none;
+			transition: all 0.4s ease;
+}
+
+.MenuLateral .nav-links li:hover{
+			background: #00995c;
+}
+
+.MenuLateral .nav-links li i{
+			height: 50px;
+			min-width: 78px;
+			text-align: center;
+			line-height: 50px;
+			color: #fff;
+			font-size: 20px;
+}
+
+.MenuLateral .nav-links li a{
+			display: flex;
+			align-items: center;
+			text-decoration: none;		
+}
+
+.MenuLateral .nav-links li a .link_name{
+			font-size: 18px;
+			font-weight: 400;
+			color: #fff;
+}
+
 
 </style>
 </head>
 <body>
-<header>
-	<div><img src="https://i.pinimg.com/564x/43/81/bb/4381bbed62facabf02376c5d26e46a85.jpg" width="200" alt="logotipo"/>
-	<h4>Cardápio</h4>
-	<h4>Blog</h4>
-	<h4>Contato</h4>
-	
+	<div class="MenuLateral">
+		<div class="detalhes-da-logo">
+			<i class='bx bxs-leaf' ></i>
+			<span class="logo-name">VeganPlace</span>
+		</div>
+			<ul class="nav-links">
+				<li>
+					<a href="#">
+						<i class='bx bx-phone'></i>
+						<span class="link_name">Contato</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-grid-small'></i>
+						<span class="link_name">Sobre Nós</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-star' ></i>
+						<span class="link_name">Avaliações</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class='bx bx-question-mark'></i>
+						<span class="link_name">FAQ</span>
+					</a>
+				</li>
+			</ul>
 	</div>
-</header>
+	
+<script>
 
+<!--
+28:49 How to make dashboard sidebar menu
+https://www.youtube.com/watch?v=ES8vJcUqE7s
+--> 
 
-
-<footer>
-
-
-</footer>
+</script>
+	
 </body>
 </html>
