@@ -4,7 +4,7 @@
 <head>
 	<title>Menu Lateral 2</title>
 	<meta charset="utf-8">
-	<meta name= viewport content= width=device-width initial-scale=1.0 meaning>
+	<meta name= viewport content="width=device-width initial-scale=1.0 meaning">
 	<!--Boxicon-->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<!--Google Fonts-->
@@ -49,7 +49,7 @@
 <head>
     <title>Segunda página</title>
     <meta charset="utf-8">
-	<meta name= viewport content= width=device-width initial-scale=1.0 meaning>
+	<meta name= viewport content="width=device-width initial-scale=1.0 meaning">
 	<!--Boxicon-->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<!--Google Fonts-->
