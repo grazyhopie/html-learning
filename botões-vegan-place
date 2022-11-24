@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>botões</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-botões.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--botões do cabeçalho-->
+    <div class="button-geral">
+    <button type="submit" class="cadastro-btn">Cadastre-se</button>
+    <a href="#" class="login-btn">Login</a>
+    </div>
+
+    <br><br>
+
+    <!--botão de pesquisar-->
+    <div class="container-pesquisar">
+    <button type="submit" class="pesquisar-btn">Pesquisar</button>
+    </div>
+
+    <br><br>
+
+    <!--botão de Comprar-->
+    <div class="container-comprar">
+        <button type="submit" class="comprar-btn">Comprar</button>
+    </div>
+
+    <br><br>
+
+    <!--botão de Entrar no Login-->
+    <div class="container-entrar">
+        <button type="submit" class="entrar-btn">Entrar</button>
+    </div>
+
+    <br><br>
+
+    <!--botão Continuar com o Facebook no Login-->
+    <div class="container-facebook">
+        <button type="submit" class="facebook-btn">
+                <i class='bx bxl-facebook'></i>
+                Continuar com o Facebook
+        </button>
+    </div>
+
+    <br><br>
+
+    <!--botão Continuar com o Google no Login-->
+    <div class="container-google">
+        <button type="submit" class="google-btn">
+                <i class='bx bxl-google'></i>
+                Continuar com o Google
+        </button>
+    </div>
+    
+    <br><br>
+
+    <!--botão de Aplicar desconto no carrinho-->
+    <div class="container-aplicar">
+        <button type="submit" class="aplicar-btn">Aplicar</button>
+    </div>
+
+    <br><br>
+
+    <!--botão de Finalizar compra no carrinho-->
+    <div class="container-finalizar-compra">
+        <button type="submit" class="finalizar-compra-btn">
+            Finalizar compra
+        </button>
+    </div>
+    .
+    .
+    .
+    <!--style com CSS-->
+    @charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*container geral*/
+.button-geral{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de cadastro*/
+.cadastro-btn{
+    background-color: #1fac6a;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cadastro-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.cadastro-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*Botão de login*/
+.login-btn{
+    background-color: #08ac83e3;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    padding: 9px 37px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.login-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.login-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*container pesquisar*/
+.container-pesquisar{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de pesquisar*/
+.pesquisar-btn{
+    background-color: #1fac6a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 36px;
+    border-radius: 5px;
+}
+
+.pesquisar-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*container comprar*/
+.container-comprar{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de Comprar*/
+.comprar-btn{
+    background-color: #1fac6a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 40px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.comprar-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.comprar-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*container entrar*/
+.container-entrar{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de Entrar*/
+.entrar-btn{
+    background-color: #1fac6a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 50px;
+    border-radius: 5px;
+}
+
+.entrar-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.entrar-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*container facebook*/
+.container-facebook{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão Continuar com Facebook*/
+.facebook-btn{
+    background-color: #0b70cf;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.facebook-btn:hover{
+    background-color: #2f93f0;
+}
+
+.facebook-btn:active{
+    background-color: #0f5faa;
+}
+
+/*container google*/
+.container-google{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão Continuar com Google*/
+.google-btn{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.google-btn:hover{
+    background-color: #d5dee6;
+}
+
+.google-btn:active{
+    background-color: #abb7c0;
+}
+
+/*container Aplicar desconto*/
+.container-aplicar{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de Aplicar desconto no carrinho*/
+.aplicar-btn{
+    background-color: #1fac6a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 36px;
+    border-radius: 5px;
+}
+
+.aplicar-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.aplicar-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*container Aplicar desconto*/
+.container-finalizar-compra{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de Finalizar compra no carrinho*/
+.finalizar-compra-btn{
+    background-color: #1fac6a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 36px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.finalizar-compra-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.finalizar-compra-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+    
