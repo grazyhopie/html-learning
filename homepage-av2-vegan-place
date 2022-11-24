@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <!--Boxicon-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!--Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+	<!--Css Externo-->
+    <link rel="stylesheet" href="styleMenuLateral.css">
+    <link rel="stylesheet" href="style-area-de-pesquisa.css">
+
+<style>
+</style>
+</head>
+<body>
+    <header id="area-de-pesquisa">
+        <nav>
+            <div class="logotipo">Vegan Place</div>
+			<div class="nav-items">
+				<li><a href="#">Cardapio</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contato</a></li>
+			</div>
+			<form action="#">
+				<input type="search" class="barra-de-pesquisa" placeholder=" Pesquisar por região">
+				<button type="submit" name="barra-de-pesquisa">
+					<i class='bx bx-search'></i>
+				</button>
+        </nav>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class='bx bx-menu' id="btn"></i>
+        <i class='bx bx-x' id="cancel"></i>
+    </label>
+    <div class="MenuLateral">
+        <header><i class='bx bxs-leaf'></i></header>
+        <ul>
+            <li><a href="#"><i class='bx bx-phone'></i>Contato</a></li>
+            <li><a href="#"><i class='bx bx-hash'></i>Sobre Nós</a></li>
+            <li><a href="#"><i class='bx bxs-star'></i>Avaliações</a></li>
+            <li><a href="#"><i class='bx bx-question-mark'></i>FAQ</a></li>
+        </ul>
+    </div>
+    <section></section>
+    
+</body>
+</html>
+.
+.
+.
+<!--style area de pesquisa nav com CSS-->
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background:#f2f2f2;
+}
+
+nav{
+background: #2eb82e;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+height: 70px;
+padding: 0 100px;
+}
+
+nav .nav-items{
+display: flex;
+flex: 1;
+list-style: none;
+padding: 0 0 0 100px;
+}
+
+nav .nav-items li{
+padding: 0 20px;
+}
+
+nav .nav-items li a{
+color:#fff;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+}
+
+nav .nav-items li a:hover{
+color: #105710;
+font-weight: bold;
+}
+
+nav form{
+display: flex;
+height: 40px;
+border-radius: 10px;
+padding: 3px 20px;
+background: #fff;
+min-width: 18%;
+border: 1px solid rgba(155, 155, 155, 0.2);
+}
+
+nav form .barra-de-pesquisa{
+width: 100%;
+height: 100%;
+padding: 0 10px;
+color: #fff;
+font-weight: 500;
+background: none;
+border: none;
+font-size: 17px;
+}
+
+nav form button{
+padding: 0 15px;
+background: #29a329;
+border: none;
+cursor: pointer;
+font-size: 17px;
+color: #fff;
+border-radius: 2px;
+}
+
+nav .logotipo{
+color: #fff;
+font-size: 30px;
+font-weight: 300;
+letter-spacing: 1px;
+font-family: 'Alfa Slab One', cursive;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+<!--style menu lateral com CSS-->
+@charset "utf-8";
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.MenuLateral{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #29a329;
+    transition: all .5s ease;
+}
+
+.MenuLateral header{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #068306;
+    user-select: none;
+}
+
+.MenuLateral ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgb(32, 104, 4);
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.MenuLateral ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #2eb82e;
+    border-radius: 50px;
+}
+
+label #btn{
+    left: 20px;
+    top: 10px;
+    font-size: 40px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .4s;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+label #cancel{
+    display: flex;
+    margin-top: 60px;
+    z-index: 1111;
+    left: -195px;
+    top: 25px;
+    font-size: 30px;
+    color: black;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~ .MenuLateral{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+<!--botões para o site-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>botões</title>
+</head>
+<body>
+    
+</body>
+</html>
