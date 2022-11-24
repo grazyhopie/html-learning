@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-botões.css">
+    <title>botões</title>
+</head>
+<body>
+    <h1>Links</h1>
+        <div class="buttonLink">
+            <a href="#" class="sucessoLink">Sucesso</a>
+            <a href="#" class="cancelarLink">Cancelar</a>
+        </div>
+    <br>
+    <hr>
+    <br>
+    <h1>Botões</h1>
+        <div class="buttonGeral">
+            <button type="submit" class="sucesso-btn">Sucesso</a>
+            <button type="submit" class="cancelar-btn">Cancelar</a>
+        </div>
+</body>
+</html>
+.
+.
+.
+/*style com CSS*/
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.buttonGeral{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão Sucesso*/
+.sucesso-btn{
+    background-color: rgb(13, 167, 90);
+    outline: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sucesso-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.sucesso-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+/*Botão Cancelar*/
+.cancelar-btn{
+    background-color: #ff1100;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cancelar-btn:hover{
+    background-color: #e74c41;
+    transition: o.3s;
+}
+
+.cancelar-btn:active{
+    background-color: #b4150a;
+}
+
+/*Botão de Link*/
+.buttonLink{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*Sucesso-link*/
+.sucessoLink{
+    background-color: #2504b9;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sucessoLink:hover{
+    background-color: #5634ec;
+}
+
+.sucessoLink:active{
+    background-color: #1c067c;
+}
+
+/*Cancelar-link*/
+.cancelarLink{
+    background-color: rgb(230, 32, 18);
+    outline: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.cancelarLink:hover{
+    background-color: #e74c41;
+    transition: o.3s;
+}
+
+.cancelarLink:active{
+    background-color: #b4150a;
+}
