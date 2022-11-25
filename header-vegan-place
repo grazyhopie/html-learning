@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <!--Boxicon-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!--Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+	<!--Css Externo-->
+    <link rel="stylesheet" href="styleMenuLateral.css">
+    <link rel="stylesheet" href="style-my-header.css">
+    <link rel="stylesheet" href="style-footer.css">
+</head>
+<body>
+    <header>
+        <div class="area-de-pesquisa">
+            <nav>
+                <div class="logotipo">Vegan Place</div>
+                <div class="nav-items">
+                    <li><a href="#">Cardapio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                </div>
+                <!--botões do cabeçalho-->
+                <div class="button-geral">
+                    <button type="submit" class="cadastro-btn">Cadastre-se</button>
+                    <a href="#" class="login-btn">Login</a>
+                </div>
+                <div class="detalhes-carrinho-icon">
+                    <i class='bx bxs-cart-add'></i>
+                </div>
+            </nav>
+            <!--Menu lateral-->
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class='bx bx-menu' id="btn"></i>
+                <i class='bx bx-x' id="cancel"></i>
+            </label>
+            <div class="MenuLateral">
+                <div class="detalhes-logotipo-folha">
+                    <i class='bx bxs-leaf'></i>
+                </div>
+                <ul>
+                    <li><a href="#"><i class='bx bx-phone'></i>Contato</a></li>
+                    <li><a href="#"><i class='bx bx-hash'></i>Sobre Nós</a></li>
+                    <li><a href="#"><i class='bx bxs-star'></i>Avaliações</a></li>
+                    <li><a href="#"><i class='bx bx-question-mark'></i>FAQ</a></li>
+                </ul>
+            </div>
+    </header>
+    </body>
+</html>
+.
+.
+.
+<!--style com css-->
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    background:#f2f2f2;
+}
+
+nav{
+background: #2eb82e;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+height: 70px;
+padding: 0 100px;
+}
+
+nav .nav-items{
+display: flex;
+flex: 1;
+list-style: none;
+padding: 0 0 0 100px;
+}
+
+nav .nav-items li{
+padding: 0 20px;
+}
+
+nav .nav-items li a{
+color:#fff;
+font-size: 20px;
+font-weight: 500;
+text-decoration: none;
+}
+
+nav .nav-items li a:hover{
+color: #105710;
+font-weight: bold;
+}
+
+/*container geral dos botões*/
+.button-geral{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Botão de cadastro*/
+.cadastro-btn{
+    background-color: #258de2;
+    color: white;
+    border-style: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Poppins', sans-serif;
+}
+
+.cadastro-btn:hover{
+    background-color: rgb(72, 203, 255);
+}
+
+.cadastro-btn:active{
+    background-color: rgb(10, 107, 146);
+}
+
+/*Botão de login*/
+.login-btn{
+    background-color: #09b967;
+    color: white;
+    border: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    padding: 9px 37px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: 5px;
+}
+
+.login-btn:hover{
+    background-color: rgb(51, 209, 130);
+}
+
+.login-btn:active{
+    background-color: rgb(15, 124, 70);
+}
+
+nav .logotipo{
+color: #fff;
+font-size: 30px;
+font-weight: 300;
+letter-spacing: 1px;
+font-family: 'Alfa Slab One', cursive;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.detalhes-carrinho-icon{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-left: 30px;
+}
+.caixa-de-pesquisa{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-de-pesquisa{
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 100px;
+    background: #fff;
+    border: 1px solid rgba(155, 155, 155, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Poppins', sans-serif;
+}
+/*Botão de pesquisar*/
+.pesquisar-btn{
+    background-color: #09b967;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin-left: 11px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.pesquisar-btn:active{
+    background-color: rgb(15, 124, 70);
+}
