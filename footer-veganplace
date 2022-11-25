@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <!--Boxicon-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!--Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+	<!--Css Externo-->
+    <link rel="stylesheet" href="styleMenuLateral.css">
+    <link rel="stylesheet" href="style-my-header.css">
+    <link rel="stylesheet" href="style-footer.css">
+</head>
+<body>
+<div class="myFooter">
+        <div class="logotipo-footer">Vegan Place</div>
+        <br>
+        <h2>Formas de Pagamento</h2>
+            <div class="icons-pagamento">
+                <i class='bx bxs-credit-card-alt' ></i>
+                <i class='bx bxl-visa'></i>
+                <i class='bx bxl-mastercard'></i>
+                <i class='bx bxl-paypal'></i>
+            </div>
+            <hr>
+            <br>
+        <h5>
+            <i class='bx bx-copyright'></i>
+            2022 VeganPlace Delivery | Todos os direitos reservados
+        </h5>
+        <br>
+        <div class="icons-redes-sociais">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-whatsapp'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-twitter' ></i>
+        </div>
+    </div>  
+</body>
+</html>
+.
+.
+.
+<!--style com CSS-->
+
+@charset "utf-8";
+
+.myFooter{
+    background-color: #3ace3a;
+    padding: 45px;
+    padding-left: 50px;
+    padding-top: 33px;
+}
+
+.logotipo-footer{
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2{
+    color: black;
+    font-size: 20px; 
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8px;
+}
+
+.icons-pagamento{
+    font-size: 32px;
+    color: black;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h5{
+    padding-left: 350px;
+}
+
+.icons-redes-sociais{
+    padding: 1px 400px 1px 450px;
+    font-size: 30px;
+}
